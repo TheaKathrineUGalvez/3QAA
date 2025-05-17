@@ -1,0 +1,141 @@
+
+body{
+    background-image: url('../Images/bbg.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    padding: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#4a7a44;
+    font:georgia;
+    }
+      
+li {
+    float: left;
+    }
+      
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+     padding: 14px 16px;
+    text-decoration: none;
+    font-size:25px;
+    }
+
+li a:link {
+    color: #ede7bb;                  
+}
+
+
+li a:visited {
+    color: #ccc7a1;                    
+}
+
+
+li a:hover {
+    background-color:#7ea87f;   
+    color:white;                
+}
+
+li a:active {
+    background-color: #FFFAFA;   
+    color: white;                
+}
+
+.BG1{
+    text-align:center;
+    background-color:#45713f;
+    font:georgia;
+}
+
+.bg1{
+    color:white;
+    font-size: 60px;
+}
+
+.what{
+    background-color: #d0c3a1;
+    display: inline-block;
+    font-size: 50px;
+    text-align: left;
+    margin:20px;
+    font:georgia;
+}
+
+.description{
+    background-color: #dfd8b3;
+    padding:10px;
+    overflow:hidden;
+    font-size:25px;
+    max-width:1000px;
+}
+
+.description:hover{
+    transform:translate(10px,-10px);
+}
+
+.sdg{
+    float:left;
+    margin:15px;
+}
+
+.poster{
+    float:right;
+    margin:15px;
+    margin:bottom;
+}
+
+.marine{
+    float:right;
+}
+
+.obj{
+    background-color: #d0c3a1;
+    display: inline-block;
+    font-size: 50px;
+    text-align: left;
+    clear:left;
+    margin:20px;
+}
+
+.nature{
+    float:left;
+    margin:10px;
+    position:relative;
+}
+
+.news{
+    float:bottom;
+    display: block;
+    margin:60px;
+}
+
+
+p{
+    padding:20px;
+    border:10px;
+}
+
+h1{
+    color:white;
+    transition: color 2s;
+}
+
+h1:hover{
+    color:#4a7a44;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+img[alt~="SDG"]{
+    border:2px solid white;
+}
+

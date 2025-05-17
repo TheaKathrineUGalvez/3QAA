@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="../css/quiz.css"> 
+</head>
+<body>
+    <ul>
+        <li><a href="../home.html">Home</a></li>
+        <li><a href="problems.html">Problems</a></li>
+        <li><a href="solution.html">Solution</a></li>
+        <li><a class="active" href="quiz.html">Quiz</a></li>
+        <li><a href="signup.html">Signup</a></li>
+    </ul>
+
+    <div class="sprite"></div>
+    
+    <h1 id="main">Let's see what you've learned from this website!</h1>
+
+    <div class="quiz">
+
+        <div id="questions">
+            <p id="qb"></p>
+        </div>
+
+        <div id="choices"></div>
+
+        <div class="buts">
+            <button id="previous" onclick="previousq()">Previous</button>
+            <button id="next" onclick="nextq()">Next</button>
+            <button id="submit" onclick="submitq()">Submit</button>
+        </div>
+
+        <div id="result"></div> 
+    </div>
+    
+    <script src="../js/quiz.js"></script> 
+</body>
+</html>

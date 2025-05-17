@@ -1,0 +1,100 @@
+#main{
+    color:white;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#4a7a44;
+    font:georgia;
+    }
+    
+li a:link {
+    color: #ede7bb;                  
+    }
+    
+    
+li a:visited {
+    color: #ccc7a1;                    
+    }
+    
+    
+li a:hover {
+    background-color:#7ea87f;   
+    color:white;                
+    }
+    
+li a:active {
+    background-color: #FFFAFA;   
+    color: white;                
+    }
+
+li a:hover {
+    background-color: #93b096 ;
+    }  
+
+li {
+    float: left;
+    }
+      
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+     padding: 14px 16px;
+    text-decoration: none;
+    font-size:25px;
+    }
+
+body{
+    background-image: url('../Images/bbg.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    padding: 30px;
+}
+
+.quiz{
+    text-align: center;
+    size:30px;
+}
+
+#qb{
+    background-color: #93b096;
+    color:white;
+    font-weight: bold;
+}
+
+#choices{
+    padding:10px;
+    margin:20px;
+}
+
+#choices button{
+    background-color:#ccc7a1;
+}
+
+.buts{
+    margin:10px;
+    color:#ccc7a1;
+}
+
+.sprite {
+      width: 64px;  
+      height: 64px; 
+      background-image: url('../Images/sprite.jpg');
+      background-repeat: no-repeat;
+      animation: play 2s steps(8) infinite; 
+      margin: 50px auto;
+    }
+
+@keyframes play {
+      from {
+        background-position: 0 0;
+      }
+      to {
+        background-position: -512px 0; 
+      }
+    }
