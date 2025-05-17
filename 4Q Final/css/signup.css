@@ -1,0 +1,107 @@
+body{
+    background-image: url('../Images/bbg.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    padding: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#4a7a44;
+    font:georgia;
+    }
+      
+li {
+    float: left;
+    }
+      
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+     padding: 14px 16px;
+    text-decoration: none;
+    font-size:25px;
+    }
+
+li a:link {
+    color: #ede7bb;                  
+}
+
+
+li a:visited {
+    color: #ccc7a1;                    
+}
+
+
+li a:hover {
+    background-color:#7ea87f;   
+    color:white;                
+}
+
+li a:active {
+    background-color: #FFFAFA;   
+    color: white;                
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+img[alt~="SDG"]{
+    border:2px solid white;
+}
+
+#pagetitle{
+    text-align: center;
+    font-size: 35px;
+    color:white;
+}
+
+#logo{
+    max-width: 5%;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.pagetitle{
+    user-select: none;
+}
+.titlediv{
+     display: flex;
+    align-items: center;
+}
+
+#description{
+    font-size: 30px;
+    color:#fff8e8;
+    background-color: #dbcd93;
+}
+
+label{
+    font-size: 20px;
+}
+
+input{
+    font-size: 20px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color:black;
+    font-weight: bold;
+}
+
+div input[type="radio"]{
+    align-items: center;
+    margin-right: 6px;
+    flex-direction: row;
+}
+

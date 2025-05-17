@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ForABrighterTomorrow</title>
+    <link rel="stylesheet" type="text/css" href="../css/signup.css"> 
+  </head>
+  <body>
+      <nav>
+      <ul>
+        <li><a href="../home.html">Home</a></li>
+        <li><a href="problems.html">Problems</a></li>
+        <li><a href="solution.html">Solution</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="signup.html">Signup</a></li>
+      </ul>
+      </nav>
+
+      <header class="titlediv">
+        <h1 id="pagetitle">For a Brighter Tomorrow</h1>
+        <img id="logo" src="../Images/logo.jpg">
+      </header>
+
+      <p id="description">We value responsible consumption and production. Join us now.</p>
+      
+      <form class="form" id="signupForm">
+        
+        <div>
+            <label for="fn">First Name <span class="required">*</span></label>
+            <input type="text" id="fn" required>
+            <span class="required" id="fnError"></span>
+        </div>
+      
+        <div>
+            <label for="ln">Last Name <span class="required">*</span></label>
+            <input type="text" id="ln" required>
+            <span class="required" id="lnError"></span>
+        </div>
+    
+        <div id="radio-group">
+            <label>Sex <span class="required">*</span></label>
+            <label><input type="radio" name="sex" value="male" required>male</label>
+            <label><input type="radio" name="sex" value="female" required>female</label>
+            <label><input type="radio" name="sex" value="prefer not to say" required>prefer not to say</label>
+            <span class="required" id="sError"></span>
+        </div>
+
+        <div>
+            <label for="ea">Email Address <span class="required">*</span></label>
+            <input type="text" id="ea" required>
+            <span class="required" id="eaError"></span>
+        </div>
+        
+        <div>
+            <label for="pass">Password <span class="required">*</span></label>
+            <input type="password" id="pass" required>
+            <span class="required" id="passError"></span>
+        </div>
+
+        <div>
+            <label for="cn">Contact Number </label>
+            <input type="text" id="cn">
+        </div>
+
+        <div>
+            <label for="reason">Why you're supporting our campaign? <span class="required">*</span></label>
+            <input type="text" id="reason" required>
+            <span class="required" id="reasonError"></span>
+        </div>
+
+        <button type="submit">Sign Up</button>
+        </section>
+      </form>
+
+      <script src="../js/signup.js"></script>
+    </body>
+</html>
